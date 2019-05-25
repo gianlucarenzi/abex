@@ -1,0 +1,315 @@
+Cmp-Mod V01 Created by PcbNew   date = Thu 16 May 2019 02:48:51 CEST
+
+BeginCmp
+TimeStamp = 5CC2F90B
+Path = /5CC1E0D9/5CC1E7A9
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2F911
+Path = /5CC1E0D9/5CC1E7DB
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2F917
+Path = /5CC1E0D9/5CC1E80D
+Reference = C3;
+ValeurCmp = 22u;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2F939
+Path = /5CC1C4D9/5CC1C553
+Reference = CART1;
+ValeurCmp = ATARI-CARTRIDGE;
+IdModule  = RetroBitLab:ATARI-LEFT-CARTRIDGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2F95B
+Path = /5CC1C4D9/5CC1CD4D
+Reference = CART2;
+ValeurCmp = ATARI-CARTRIDGE;
+IdModule  = RetroBitLab:TE_5530843-2_15X2_CART_EDGE_CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2F961
+Path = /5CC1E0D9/5CC1EDB7
+Reference = D1;
+ValeurCmp = LED GREEN;
+IdModule  = LEDs:LED_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2F973
+Path = /5CC1C4D9/5CC1C5C6
+Reference = ECI1;
+ValeurCmp = ECIBUS;
+IdModule  = RetroBitLab:ATARI-XE-ECI-SLOT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FA58
+Path = /5CC1E0D9/5CC1ED47
+Reference = R1;
+ValeurCmp = 1.5K;
+IdModule  = Resistors_SMD:R_1210_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FA5E
+Path = /5CC1E0D9/5CC1E9F6
+Reference = R2;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_1210_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FA64
+Path = /5CC1E0D9/5CC2145B
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_1210_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FA6A
+Path = /5CC1E0D9/5CC21168
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_1210_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FA82
+Path = /5CC1E0D9/5CC1E0E7
+Reference = U1;
+ValeurCmp = TXB0108-PW;
+IdModule  = Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FA9A
+Path = /5CC1E0D9/5CC1E137
+Reference = U2;
+ValeurCmp = TXB0108-PW;
+IdModule  = Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FAB2
+Path = /5CC1E0D9/5CC1E167
+Reference = U3;
+ValeurCmp = TXB0108-PW;
+IdModule  = Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FACA
+Path = /5CC1E0D9/5CC1E192
+Reference = U4;
+ValeurCmp = TXB0108-PW;
+IdModule  = Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FAE2
+Path = /5CC1E0D9/5CC1E1CE
+Reference = U5;
+ValeurCmp = TXB0108-PW;
+IdModule  = Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FB02
+Path = /5CC1E0D9/5CC2EF96
+Reference = U6;
+ValeurCmp = MCP1827S-1.5A-TO-220-3;
+IdModule  = RetroBitLab:MCP_1827S_TO-220-3_Horizontal_TabDown;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FB07
+Path = /5CC1E0D9/5CC22008
+Reference = W1;
+ValeurCmp = TEST_1P;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2FB0C
+Path = /5CC1E0D9/5CC2F332
+Reference = W2;
+ValeurCmp = TEST_1P;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC302B0
+Path = /5CC1C4D9/5CC30308
+Reference = J4;
+ValeurCmp = Conn_01x01;
+IdModule  = MountingHole:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC302B4
+Path = /5CC1C4D9/5CC30360
+Reference = J5;
+ValeurCmp = Conn_01x01;
+IdModule  = MountingHole:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC302B8
+Path = /5CC1C4D9/5CC3038E
+Reference = J6;
+ValeurCmp = Conn_01x01;
+IdModule  = MountingHole:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC302BC
+Path = /5CC1C4D9/5CC303BB
+Reference = J7;
+ValeurCmp = Conn_01x01;
+IdModule  = MountingHole:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC30F14
+Path = /5CC1E0D9/5CC30E8C
+Reference = GND1;
+ValeurCmp = TEST_1P;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC30F21
+Path = /5CC1E0D9/5CC30E46
+Reference = VCC_5V1;
+ValeurCmp = TEST_1P;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC4F140
+Path = /5CC1C4D9/5CC1CEE2
+Reference = ECI2;
+ValeurCmp = ECIBUS;
+IdModule  = RetroBitLab:ECI_BUS_7X2_EDGE_CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDC894E
+Path = /5CDC481C
+Reference = J1;
+ValeurCmp = Bus_ABEX_EXTENDED;
+IdModule  = RetroBitLab:ISA16;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDC89BB
+Path = /5CDC517F
+Reference = J2;
+ValeurCmp = Bus_ABEX_EXTENDED;
+IdModule  = RetroBitLab:ISA16;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDC8A28
+Path = /5CDC527E
+Reference = J3;
+ValeurCmp = Bus_ABEX_EXTENDED;
+IdModule  = RetroBitLab:ISA16;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDCFF00
+Path = /5CC30DA7
+Reference = P1;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDD1017
+Path = 
+Reference = ABEXLOGO;
+ValeurCmp = LOGO;
+IdModule  = RetroBitLab:ABEX_Logo_22mmx11mm_WB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDD8DEA
+Path = 
+Reference = REF**;
+ValeurCmp = KiCad-Logo2_8mm_SilkScreen;
+IdModule  = Symbol:KiCad-Logo2_8mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDE307B
+Path = /5CC1E0D9/5CDC5264
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = RetroBitLab:CP_Radial_D10.0mm_P2.50mm_3D;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDE313C
+Path = /5CC1E0D9/5CDC5392
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = RetroBitLab:CP_Radial_D10.0mm_P2.50mm_3D;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDE31FD
+Path = /5CC1E0D9/5CDC52DF
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = RetroBitLab:CP_Radial_D10.0mm_P2.50mm_3D;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDE32BE
+Path = /5CC1E0D9/5CDC53EE
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = RetroBitLab:CP_Radial_D10.0mm_P2.50mm_3D;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDE337F
+Path = /5CC1E0D9/5CDC5339
+Reference = C8;
+ValeurCmp = 10uF;
+IdModule  = RetroBitLab:CP_Radial_D10.0mm_P2.50mm_3D;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDE3440
+Path = /5CC1E0D9/5CDC5445
+Reference = C9;
+ValeurCmp = 10uF;
+IdModule  = RetroBitLab:CP_Radial_D10.0mm_P2.50mm_3D;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CDE69B7
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = RetroBitLab:atari_fuji_SilkScreen_21.2x25-Rev;
+EndCmp
+
+EndListe

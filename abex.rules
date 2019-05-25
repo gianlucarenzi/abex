@@ -1,0 +1,150 @@
+
+(rules PCB abex
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 6343)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 250.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 300.2 (type default_GND))
+    (clear 300.2 (type default_"VCC_3V3"))
+    (clear 300.2 (type default_"VCC_5V"))
+    (clear 62.6 (type smd_smd))
+    (clear 300.2 (type smd_GND))
+    (clear 300.2 (type smd_"VCC_3V3"))
+    (clear 300.2 (type smd_"VCC_5V"))
+    (clear 300.2 (type "kicad_default"_GND))
+    (clear 300.2 (type "kicad_default"_"VCC_3V3"))
+    (clear 300.2 (type "kicad_default"_"VCC_5V"))
+    (clear 300.2 (type GND_GND))
+    (clear 300.2 (type GND_"VCC_3V3"))
+    (clear 300.2 (type GND_"VCC_5V"))
+    (clear 300.2 (type "VCC_3V3"_"VCC_3V3"))
+    (clear 300.2 (type "VCC_3V3"_"VCC_5V"))
+    (clear 300.2 (type "VCC_5V"_"VCC_5V"))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-GND" "Via[0-1]_600:400_um" GND
+  )
+  (via 
+    "Via[0-1]_600:400_um-VCC_3V3" "Via[0-1]_600:400_um" "VCC_3V3"
+  )
+  (via 
+    "Via[0-1]_600:400_um-VCC_5V" "Via[0-1]_600:400_um" "VCC_5V"
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    GND "Via[0-1]_600:400_um-GND"
+  )
+  (via_rule
+    "VCC_3V3" "Via[0-1]_600:400_um-VCC_3V3"
+  )
+  (via_rule
+    "VCC_5V" "Via[0-1]_600:400_um-VCC_5V"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "VCC_5V" GND "Net-(C2-Pad1)" RD4 ~S4 A3 A2 A1
+    A0 D4 D5 D2 D1 D0 D6 ~S5
+    RD5 ~CCTL A4 A5 A6 A7 A8 A9
+    A12 D3 D7 A11 A10 R/~W PHI2 "VCC_3V3"
+    "Net-(D1-Pad1)" RSRVD ~EXSEL ~RST ~D1XX ~MPD AUDIO ~REF
+    ~IRQ ~HALT A13 A14 A15 "Net-(R4-Pad2)" ~mRST ~mCCTL
+    ~mHALT mR/~W ~mD1XX ~mEXSEL ~mMPD ~mREF ~mIRQ ~mS5
+    mRD5 ~mS4 mRD4 mAUDIO mD7 mD6 mD5 mD4
+    mD3 mD2 mD1 mD0 mPHI2 mA15 mA14 mA13
+    mA12 mA11 mA10 mA9 mA8 mA7 mA6 mA5
+    mA4 mA3 mA2 mA1 mA0 "Net-(R4-Pad1)" /SWDIO /SWDCLK
+    /SWDRST "Net-(R3-Pad1)" "Net-(R3-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 450.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "VCC_3V3"
+    (clearance_class "VCC_3V3")
+    (via_rule VCC_3V3)
+    (rule
+      (width 450.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "VCC_5V"
+    (clearance_class "VCC_5V")
+    (via_rule VCC_5V)
+    (rule
+      (width 450.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
