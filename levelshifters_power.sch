@@ -217,7 +217,6 @@ LIBS:CPLD_Altera
 LIBS:Amplifier_Video
 LIBS:Amplifier_Instrumentation
 LIBS:Amplifier_Buffer
-LIBS:ft232rl
 LIBS:AmigaComponents
 LIBS:abex-cache
 EELAYER 25 0
@@ -229,8 +228,8 @@ Title "Level Shifters & Power Converter"
 Date "2019-04-25"
 Rev "0.1"
 Comp "RetroBit Lab"
-Comment1 ""
-Comment2 ""
+Comment1 "Address & Data Bus Levels Adjustment"
+Comment2 "Line Filters & Test Points"
 Comment3 ""
 Comment4 ""
 $EndDescr
