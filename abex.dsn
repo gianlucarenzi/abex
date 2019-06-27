@@ -1,4 +1,4 @@
-(pcb /home/debian/Progetti/ATARI/abex/abex.dsn
+(pcb /home/debian/Progetti/Atari/abex/abex.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -37,9 +37,20 @@
     )
   )
   (placement
+    (component "Symbol:KiCad-Logo2_5mm_SilkScreen"
+      (place REF** 132080 -129540 front 0 (PN "KiCad-Logo2_5mm_SilkScreen"))
+      (place LOGO 186690 -64770 front 270 (PN LOGO))
+      (place ATARILOGO 124900 -131900 back 0 (PN LOGO))
+    )
+    (component "RetroBitLab:Symbol_GNU-GPL_SilkScreen_Small"
+      (place GPL 114300 -153670 front 0 (PN "Symbol_GNU-GPL_CopperTop_Small"))
+    )
     (component Capacitors_SMD:C_1206_HandSoldering
       (place C1 87630 -127000 front 0 (PN 10u))
       (place C2 93980 -132080 front 180 (PN 100n))
+      (place C7 149860 -31750 front 90 (PN 10u))
+      (place C8 149860 -57150 front 90 (PN 10u))
+      (place C9 149860 -82550 front 90 (PN 10u))
     )
     (component "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering"
       (place C3 99060 -124460 front 90 (PN 22u))
@@ -88,9 +99,9 @@
       (place P1 159000 -120000 front 0 (PN CONN_01X04))
     )
     (component RetroBitLab:CP_Radial_D10.0mm_P2.50mm_3D
-      (place C4 139700 -99060 front 0 (PN 10uF))
-      (place C5 139700 -48260 front 0 (PN 10uF))
-      (place C6 139700 -73660 front 0 (PN 10uF))
+      (place C4 139700 -99060 front 0 (PN 10u))
+      (place C5 139700 -48260 front 0 (PN 10u))
+      (place C6 139700 -73660 front 0 (PN 10u))
     )
     (component "RetroBitLab:MCP_1827S_TO-220-3_Horizontal_TabDown"
       (place U2 88900 -120650 front 0 (PN "MCP1827S-1.5A-TO-220-3"))
@@ -102,6 +113,58 @@
     )
   )
   (library
+    (image "Symbol:KiCad-Logo2_5mm_SilkScreen"
+    )
+    (image "RetroBitLab:Symbol_GNU-GPL_SilkScreen_Small"
+      (outline (path signal 381  2100.58 -299.72  2100.58 -1899.92))
+      (outline (path signal 381  2100.58 -1899.92  3299.46 -1899.92))
+      (outline (path signal 381  -398.78 -1899.92  -398.78 -398.78))
+      (outline (path signal 381  -398.78 -398.78  500.38 -398.78))
+      (outline (path signal 381  500.38 -398.78  701.04 -398.78))
+      (outline (path signal 381  701.04 -398.78  899.16 -500.38))
+      (outline (path signal 381  899.16 -500.38  1000.76 -701.04))
+      (outline (path signal 381  1000.76 -701.04  1000.76 -899.16))
+      (outline (path signal 381  1000.76 -899.16  800.1 -1099.82))
+      (outline (path signal 381  800.1 -1099.82  500.38 -1198.88))
+      (outline (path signal 381  500.38 -1198.88  -398.78 -1198.88))
+      (outline (path signal 381  -1600.2 -500.38  -1800.86 -398.78))
+      (outline (path signal 381  -1800.86 -398.78  -2301.24 -398.78))
+      (outline (path signal 381  -2301.24 -398.78  -2600.96 -500.38))
+      (outline (path signal 381  -2600.96 -500.38  -2799.08 -599.44))
+      (outline (path signal 381  -2799.08 -599.44  -2999.74 -899.16))
+      (outline (path signal 381  -2999.74 -899.16  -2999.74 -1198.88))
+      (outline (path signal 381  -2999.74 -1198.88  -2900.68 -1600.2))
+      (outline (path signal 381  -2900.68 -1600.2  -2600.96 -1800.86))
+      (outline (path signal 381  -2600.96 -1800.86  -2301.24 -1899.92))
+      (outline (path signal 381  -2301.24 -1899.92  -1998.98 -1899.92))
+      (outline (path signal 381  -1998.98 -1899.92  -1501.14 -1800.86))
+      (outline (path signal 381  -1501.14 -1800.86  -1501.14 -1300.48))
+      (outline (path signal 381  -1501.14 -1300.48  -1998.98 -1300.48))
+      (outline (path signal 381  1800.86 2199.64  1800.86 899.16))
+      (outline (path signal 381  1800.86 899.16  2100.58 701.04))
+      (outline (path signal 381  2100.58 701.04  2400.3 701.04))
+      (outline (path signal 381  2400.3 701.04  2799.08 701.04))
+      (outline (path signal 381  2799.08 701.04  3098.8 800.1))
+      (outline (path signal 381  3098.8 800.1  3299.46 899.16))
+      (outline (path signal 381  3299.46 899.16  3299.46 2199.64))
+      (outline (path signal 381  -800.1 701.04  -800.1 2199.64))
+      (outline (path signal 381  -800.1 2199.64  701.04 701.04))
+      (outline (path signal 381  701.04 701.04  701.04 2199.64))
+      (outline (path signal 381  -1998.98 2100.58  -2301.24 2199.64))
+      (outline (path signal 381  -2301.24 2199.64  -2799.08 2100.58))
+      (outline (path signal 381  -2799.08 2100.58  -3200.4 1899.92))
+      (outline (path signal 381  -3200.4 1899.92  -3401.06 1501.14))
+      (outline (path signal 381  -3401.06 1501.14  -3299.46 1099.82))
+      (outline (path signal 381  -3299.46 1099.82  -2999.74 800.1))
+      (outline (path signal 381  -2999.74 800.1  -2499.36 599.44))
+      (outline (path signal 381  -2499.36 599.44  -1800.86 800.1))
+      (outline (path signal 381  -1800.86 800.1  -1800.86 1300.48))
+      (outline (path signal 381  -1800.86 1300.48  -2301.24 1300.48))
+      (outline (path signal 381  -4064 3048  4064 3048))
+      (outline (path signal 381  4064 3048  4064 -2540))
+      (outline (path signal 381  4064 -2540  -4064 -2540))
+      (outline (path signal 381  -4064 -2540  -4064 3048))
+    )
     (image Capacitors_SMD:C_1206_HandSoldering
       (outline (path signal 50  -3300 1150  3300 1150))
       (outline (path signal 50  -3300 -1150  3300 -1150))
@@ -802,14 +865,14 @@
   (network
     (net VCC_5V
       (pins C1-1 CART1-13 CART2-13 ECI1-7 U1-19 U3-19 U4-19 U5-19 VCC_5V1-1 ECI2-7
-        U2-1 U6-19)
+        U2-1 U6-19 J1-A31 J2-A31 J3-A31 C7-1 C8-1 C9-1)
     )
     (net GND
       (pins C1-2 C2-2 C3-2 CART1-B CART2-B ECI1-H R1-2 U1-11 U3-11 U4-11 U5-11 GND1-1
         ECI2-H P1-1 C4-2 C5-2 C6-2 U2-2 U6-11 J1-A1 J1-A5 J1-A9 J1-A13 J1-A17 J1-A21
         J1-A25 J1-A29 J1-A32 J1-B17 J1-B21 J1-B25 J2-A1 J2-A5 J2-A9 J2-A13 J2-A17
         J2-A21 J2-A25 J2-A29 J2-A32 J2-B17 J2-B21 J2-B25 J3-A1 J3-A5 J3-A9 J3-A13
-        J3-A17 J3-A21 J3-A25 J3-A29 J3-A32 J3-B17 J3-B21 J3-B25)
+        J3-A17 J3-A21 J3-A25 J3-A29 J3-A32 J3-B17 J3-B21 J3-B25 C7-2 C8-2 C9-2)
     )
     (net "Net-(C2-Pad1)"
       (pins C2-1 C3-1 R2-1 U2-3)
@@ -900,9 +963,9 @@
     )
     (net VCC_3V3
       (pins D1-2 R2-2 U1-2 U1-10 U3-2 U3-10 U4-2 U4-10 U5-2 U5-10 C4-1 C5-1 C6-1 U6-2
-        U6-10 J1-A3 J1-A7 J1-A11 J1-A15 J1-A19 J1-A23 J1-A27 J1-A31 J1-B19 J1-B23
-        J2-A3 J2-A7 J2-A11 J2-A15 J2-A19 J2-A23 J2-A27 J2-A31 J2-B19 J2-B23 J3-A3
-        J3-A7 J3-A11 J3-A15 J3-A19 J3-A23 J3-A27 J3-A31 J3-B19 J3-B23)
+        U6-10 J1-A3 J1-A7 J1-A11 J1-A15 J1-A19 J1-A23 J1-A27 J1-B19 J1-B23 J2-A3 J2-A7
+        J2-A11 J2-A15 J2-A19 J2-A23 J2-A27 J2-B19 J2-B23 J3-A3 J3-A7 J3-A11 J3-A15
+        J3-A19 J3-A23 J3-A27 J3-B19 J3-B23)
     )
     (net "Net-(D1-Pad1)"
       (pins D1-1 R1-1)
@@ -1082,16 +1145,13 @@
       (pins R3-2 U6-9)
     )
     (class kicad_default "" /SWDCLK /SWDIO /SWDRST A0 A1 A10 A11 A12 A13 A14
-      A15 A2 A3 A4 A5 A6 A7 A8 A9 AUDIO D0 D1 D2 D3 D4 D5 D6 D7 GND MAMA7
-      MASTER MEMA0 MEMA1 MEMA10 MEMA11 MEMA12 MEMA13 MEMA14 MEMA15 MEMA2 MEMA3
-      MEMA4 MEMA5 MEMA6 MEMA8 MEMA9 MEMD0 MEMD1 MEMD2 MEMD3 MEMD4 MEMD5 MEMD6
-      MEMD7 MEMR/~W MEM~IRQ "Net-(C2-Pad1)" "Net-(D1-Pad1)" "Net-(J4-Pad1)"
-      "Net-(J5-Pad1)" "Net-(J6-Pad1)" "Net-(J7-Pad1)" "Net-(R3-Pad1)" "Net-(R3-Pad2)"
-      "Net-(R4-Pad1)" "Net-(R4-Pad2)" PHI2 R/~W RD4 RD5 RSRVD VCC_3V3 VCC_5V
-      mA0 mA1 mA10 mA11 mA12 mA13 mA14 mA15 mA2 mA3 mA4 mA5 mA6 mA7 mA8 mA9
-      mAUDIO mD0 mD1 mD2 mD3 mD4 mD5 mD6 mD7 mPHI2 mR/~W mRD4 mRD5 ~CCTL ~D1XX
-      ~EXSEL ~HALT ~IRQ ~MEMRDY ~MPD ~REF ~RST ~S4 ~S5 ~mCCTL ~mD1XX ~mEXSEL
-      ~mHALT ~mIRQ ~mMPD ~mREF ~mRST ~mS4 ~mS5
+      A15 A2 A3 A4 A5 A6 A7 A8 A9 AUDIO D0 D1 D2 D3 D4 D5 D6 D7 GND "Net-(C2-Pad1)"
+      "Net-(D1-Pad1)" "Net-(J4-Pad1)" "Net-(J5-Pad1)" "Net-(J6-Pad1)" "Net-(J7-Pad1)"
+      "Net-(R3-Pad1)" "Net-(R3-Pad2)" "Net-(R4-Pad1)" "Net-(R4-Pad2)" PHI2
+      R/~W RD4 RD5 RSRVD VCC_3V3 VCC_5V mA0 mA1 mA10 mA11 mA12 mA13 mA14 mA15
+      mA2 mA3 mA4 mA5 mA6 mA7 mA8 mA9 mAUDIO mD0 mD1 mD2 mD3 mD4 mD5 mD6 mD7
+      mPHI2 mR/~W mRD4 mRD5 ~CCTL ~D1XX ~EXSEL ~HALT ~IRQ ~MPD ~REF ~RST ~S4
+      ~S5 ~mCCTL ~mD1XX ~mEXSEL ~mHALT ~mIRQ ~mMPD ~mREF ~mRST ~mS4 ~mS5
       (circuit
         (use_via Via[0-1]_600:400_um)
       )

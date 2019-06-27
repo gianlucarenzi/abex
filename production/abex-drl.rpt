@@ -1,5 +1,5 @@
 Drill report for /home/debian/Progetti/Atari/abex/abex.kicad_pcb
-Created on ven 07 giu 2019 12:13:37 CEST
+Created on gio 27 giu 2019 14:19:02 CEST
 
 Copper Layer Stackup:
     =============================================================
@@ -10,13 +10,13 @@ Copper Layer Stackup:
 Drill file 'abex.drl' contains
     plated through holes:
     =============================================================
-    T1  0,40mm  0,016"  (157 holes)
+    T1  0,40mm  0,016"  (206 holes)
     T2  0,76mm  0,030"  (14 holes)
     T3  0,80mm  0,031"  (198 holes)
     T4  1,02mm  0,040"  (38 holes)
     T5  1,10mm  0,043"  (3 holes)
 
-    Total plated holes count 410
+    Total plated holes count 459
 
 
 Drill file 'abex-NPTH.drl' contains

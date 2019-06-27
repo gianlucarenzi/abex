@@ -388,8 +388,6 @@ Text GLabel 2850 4100 0    39   BiDi ~ 8
 VCC_3V3
 Text GLabel 2850 4500 0    39   BiDi ~ 8
 VCC_3V3
-Text GLabel 2850 4900 0    39   BiDi ~ 8
-VCC_3V3
 Wire Wire Line
 	3650 4700 4150 4700
 Wire Wire Line
@@ -548,8 +546,6 @@ Text GLabel 5600 4100 0    39   BiDi ~ 8
 VCC_3V3
 Text GLabel 5600 4500 0    39   BiDi ~ 8
 VCC_3V3
-Text GLabel 5600 4900 0    39   BiDi ~ 8
-VCC_3V3
 Wire Wire Line
 	6400 4700 6900 4700
 Wire Wire Line
@@ -700,8 +696,6 @@ Text GLabel 8300 4100 0    39   BiDi ~ 8
 VCC_3V3
 Text GLabel 8300 4500 0    39   BiDi ~ 8
 VCC_3V3
-Text GLabel 8300 4900 0    39   BiDi ~ 8
-VCC_3V3
 Wire Wire Line
 	9100 4700 9600 4700
 Wire Wire Line
@@ -732,4 +726,105 @@ Wire Wire Line
 	6900 4800 7050 4800
 Wire Wire Line
 	7000 4700 7050 4700
+Text GLabel 7750 5450 0    39   BiDi ~ 8
+VCC_5V
+$Comp
+L GND #PWR01
+U 1 1 5D149D75
+P 7900 5700
+F 0 "#PWR01" H 7900 5450 50  0001 C CNN
+F 1 "GND" H 7900 5550 50  0000 C CNN
+F 2 "" H 7900 5700 50  0001 C CNN
+F 3 "" H 7900 5700 50  0001 C CNN
+	1    7900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C9
+U 1 1 5D149D91
+P 7900 5600
+F 0 "C9" H 7910 5670 50  0000 L CNN
+F 1 "10u" H 7910 5520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7900 5600 50  0001 C CNN
+F 3 "" H 7900 5600 50  0000 C CNN
+	1    7900 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 5400 0    39   BiDi ~ 8
+VCC_5V
+$Comp
+L GND #PWR02
+U 1 1 5D149F2C
+P 4900 5700
+F 0 "#PWR02" H 4900 5450 50  0001 C CNN
+F 1 "GND" H 4900 5550 50  0000 C CNN
+F 2 "" H 4900 5700 50  0001 C CNN
+F 3 "" H 4900 5700 50  0001 C CNN
+	1    4900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C8
+U 1 1 5D149F32
+P 4900 5550
+F 0 "C8" H 4910 5620 50  0000 L CNN
+F 1 "10u" H 4910 5470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4900 5550 50  0001 C CNN
+F 3 "" H 4900 5550 50  0000 C CNN
+	1    4900 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5400 4900 5450
+Wire Wire Line
+	4900 5650 4900 5700
+Connection ~ 4900 5400
+Wire Wire Line
+	5600 4900 5250 4900
+Wire Wire Line
+	5250 4900 5250 5400
+Wire Wire Line
+	5250 5400 4850 5400
+Text GLabel 1950 5400 0    39   BiDi ~ 8
+VCC_5V
+$Comp
+L GND #PWR03
+U 1 1 5D14A0DB
+P 2000 5700
+F 0 "#PWR03" H 2000 5450 50  0001 C CNN
+F 1 "GND" H 2000 5550 50  0000 C CNN
+F 2 "" H 2000 5700 50  0001 C CNN
+F 3 "" H 2000 5700 50  0001 C CNN
+	1    2000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C7
+U 1 1 5D14A0E1
+P 2000 5550
+F 0 "C7" H 2010 5620 50  0000 L CNN
+F 1 "10u" H 2010 5470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2000 5550 50  0001 C CNN
+F 3 "" H 2000 5550 50  0000 C CNN
+	1    2000 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5400 2000 5450
+Wire Wire Line
+	2000 5650 2000 5700
+Connection ~ 2000 5400
+Wire Wire Line
+	2350 4900 2350 5400
+Wire Wire Line
+	2350 5400 1950 5400
+Wire Wire Line
+	2350 4900 2850 4900
+Wire Wire Line
+	8300 4900 7900 4900
+Wire Wire Line
+	7900 4900 7900 5500
+Wire Wire Line
+	7750 5450 7900 5450
+Connection ~ 7900 5450
 $EndSCHEMATC
