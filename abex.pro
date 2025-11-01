@@ -250,7 +250,7 @@ LibName218=/home/debian/packages/kicad/kicad-symbols/Amplifier_Video
 LibName219=/home/debian/packages/kicad/kicad-symbols/Amplifier_Instrumentation
 LibName220=/home/debian/packages/kicad/kicad-symbols/Amplifier_Buffer
 LibName221=/home/debian/packages/kicad/kicad-symbols/ft232rl
-LibName222=/home/debian/Progetti/RetroBitLab-Library/AmigaComponents
+LibName222=/home/debian/Progetti/RetroBitLab-Library/RetroBitLab
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

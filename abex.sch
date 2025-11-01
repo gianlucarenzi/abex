@@ -217,7 +217,7 @@ LIBS:CPLD_Altera
 LIBS:Amplifier_Video
 LIBS:Amplifier_Instrumentation
 LIBS:Amplifier_Buffer
-LIBS:AmigaComponents
+LIBS:RetroBitLab
 LIBS:abex-cache
 EELAYER 25 0
 EELAYER END
